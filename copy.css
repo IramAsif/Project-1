@@ -1,0 +1,36 @@
+#header {
+    background-color: #f0f0f0; /* Example background color */
+    padding: 10px 0; /* Example padding */
+}
+
+#logo {
+    font-size: 24px; /* Example font size */
+    margin: 0; /* Reset margin */
+}
+
+#button {
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* Reset padding */
+}
+
+#button li {
+    display: inline-block; /* Display list items horizontally */
+    margin-left: 10px; /* Example margin between list items */
+}
+
+#button li:first-child {
+    margin-left: 0; /* Remove margin for the first list item */
+}
+
+#button li a {
+    text-decoration: none; /* Remove underline from links */
+    color: #333; /* Example link color */
+    padding: 5px 10px; /* Example padding */
+    border: 1px solid #333; /* Example border */
+    border-radius: 5px; /* Example border radius */
+}
+
+#button li a:hover {
+    background-color: #333; /* Example hover background color */
+    color: #fff; /* Example hover color */
+}
